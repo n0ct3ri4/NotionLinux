@@ -1,0 +1,25 @@
+{
+  "name": "notionlinux",
+  "version": "1.0.0",
+  "description": "Notion but on Linux. (ElectronJS)",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx electron .",
+    "build": "node build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n0ct3ri4/NotionLinux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n0ct3ri4/NotionLinux/issues"
+  },
+  "homepage": "https://github.com/n0ct3ri4/NotionLinux#readme",
+  "devDependencies": {
+    "electron": "^19.0.8",
+    "electron-packager": "^15.5.1"
+  }
+}
